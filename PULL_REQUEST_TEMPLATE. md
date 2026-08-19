@@ -1,0 +1,14 @@
+## What does this PR do?
+
+<!-- Short description of the change and why it's needed -->
+
+## Related issue
+
+<!-- Closes #123, if applicable -->
+
+## Checklist
+
+- [ ] Tests added/updated for any behavior change
+- [ ] `pytest test_main.py -v` passes locally
+- [ ] README updated if a CLI flag or default changed
+- [ ] No new runtime dependencies (or discussed first in an issue)
