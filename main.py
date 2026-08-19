@@ -12,9 +12,9 @@ def generate_qr():
 
     qr = qrcode.QRCode(
         version=1,  # Controls size (1 is a 21x21 matrix, up to 40)
-        error_correction=qrcode.constants.ERROR_CORRECT_H,  # High error correction (~30%)
-        box_size=10, # Size of each square (pixel width)
-        border=4,    # Border thickness in boxes (minimum is 4)
+        error_correction=qrcode.constants.ERROR_CORRECT_H,
+        box_size=10,
+        border=4,
     )
     
     qr.add_data(user_data)
