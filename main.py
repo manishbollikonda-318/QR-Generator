@@ -11,7 +11,7 @@ def generate_qr():
         output_filename += ".png"
 
     qr = qrcode.QRCode(
-        version=1,  # Controls size (1 is a 21x21 matrix, up to 40)
+        version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_H,
         box_size=10,
         border=4,
